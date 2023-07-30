@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Душа - сервис психологической помощи онлайн</title>
+
+	<!-- Шрифты Google fonts -->
+	<!-- Montserrat -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- Comfortaa -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Css стили -->
+	<link rel="stylesheet" href="./css/survey-styles.css" />
+<body>
+    <nav class="navbar">
+		<div class="container">
+			<div class="navbar-wrap">
+				<ul class="navbar-menu">
+					<li><a href="#we">О НАС</a></li>
+					<li><a href="#psycho">ПСИХОЛОГАМ</a></li>
+					<li><a href="#">ОТЗЫВЫ</a></li>
+					<li><a href="#" id="br"><img src="./img/menu-icon.png" id="burg"></a></li>
+				</ul>
+            </div>
+		</div>
+	</nav>
+
+    <div class="main">
+        <div class="container">
+            <div class="row r">
+                <h1 class="theme">Что Вы хотели бы обсудить?</h1>
+                <a class="button-slider-prev none-v">
+                    <img src="./img/prev-btn.png">
+                </a>
+                <a class="button-slider-next">
+                    <img src="./img/next-btn.png">
+                </a>
+            </div>
+            <a class="back-btn none-v" href="./index.html">Вернуться на главную</a>
+            <div class="row">
+                <h1 class="bot-theme">Оставьте свою заявку</h1>
+                <img class="bot-theme-icon" src="./img/cursor.png">
+            </div>
+            <div class="slider">
+                <div class="slider-line">
+                    <div class="w-place">
+                           <div class="row">
+                               <div class="form_radio_btn" id="r1">
+                                   <input id="radio-1" type="checkbox" name="checkbox" value="Самооценка">
+                                   <label for="radio-1">Самооценка</label>
+                               </div>
+                               
+                               <div class="form_radio_btn" id="r2">
+                                   <input id="radio-2" type="checkbox" name="checkbox" value="Романтические отношения">
+                                   <label for="radio-2">Романтические отношения</label>
+                               </div>
+                            </div>
+                           <div class="row">
+                               <div class="form_radio_btn" id="r3">
+                                   <input id="radio-3" type="checkbox" name="checkbox" value="Хроническая усталость">
+                                   <label for="radio-3">Хроническая усталость</label>
+                               </div>
+                               
+                               <div class="form_radio_btn" id="r4">
+                                   <input id="radio-4" type="checkbox" name="checkbox" value="Чувство тревоги">
+                                   <label for="radio-4">Чувство тревоги</label>
+                               </div>
+                            </div>
+                           <div class="row">
+                               <div class="form_radio_btn" id="r5">
+                                   <input id="radio-5" type="checkbox" name="checkbox" value="Карьерная мотивация">
+                                   <label for="radio-5">Карьерная мотивация</label>
+                               </div>
+                               
+                               <div class="form_radio_btn" id="r6">
+                                   <input id="radio-6" type="checkbox" name="checkbox" value="Прокарастинация">
+                                   <label for="radio-6">Прокарастинация</label>
+                               </div>
+                            </div>
+                       </div>
+                   <div class="w-place col-cen">
+                            <div class="form-field" id="f1">
+                                <label class='label' for="name" id="ff1">ФИО</label>
+                                <br>
+                                <input id="name" type="text" placeholder="Иванов Иван Иванович">
+                            </div>
+                            <div class="form-field" id="f2">
+                                <label class='label' for="age" id="ff2">Возраст</label>
+                                <br>
+                                <select id="age" id="age-select"> 
+                                    <option disabled selected>Выберите Ваш возраст</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                </select>
+                            </div>
+                            <label class='label' for="phone" id="f3">Номер телефона</label>
+                            
+                            <div class="form-field">
+                                <input id="phone" type="text" placeholder="+7 912 345 67 89">
+                            </div>
+                    </div>
+                    <div class="w-place">
+                        <h3 class="bit-fewer-label">01.08 Вторник</h3>
+                        <div class="row">
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-11" type="radio" name="radio" value="09:00 MCK 01.08">
+                                <label for="radio-11" id="rr1">09:00 MCK</label>
+                            </div>
+                            
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-12" type="radio" name="radio" value="10:00 MCK 01.08">
+                                <label for="radio-12" id="rr2">10:00 MCK</label>
+                            </div>
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-13" type="radio" name="radio" value="11:00 MCK 01:08">
+                                <label for="radio-13" id="rr3">11:00 MCK</label>
+                            </div>
+                        </div>
+                        <h3 class="bit-fewer-label">02.08 Среда</h3>
+                        <div class="row">
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-14" type="radio" name="radio" value="09:00 MCK 02.08">
+                                <label for="radio-14" id="rr1">09:00 МСК</label>
+                            </div>
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-15" type="radio" name="radio" value="10:00 МСК 02.08">
+                                <label for="radio-15" id="rr2">10:00 МСК</label>
+                            </div>
+                
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-16" type="radio" name="radio" value="11:00 МСК 02.08">
+                                <label for="radio-16" id="rr3">11:00 МСК</label>
+                            </div>
+                        </div>
+                        <h3 class="bit-fewer-label">03.08 Четверг</h3>
+                        <div class="row">
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-17" type="radio" name="radio" value="09:00 МСК 03.08">
+                                <label for="radio-17" id="rr1">09:00 MСК</label>
+                            </div>
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-18" type="radio" name="radio" value="10:00 МСК 03.08">
+                                <label for="radio-18" id="rr2">10:00 МСК</label>
+                            </div>
+                
+                            <div class="spec-form_radio_btn" >
+                                <input id="radio-19" type="radio" name="radio" value="11:00 МСК 03.08">
+                                <label for="radio-19" id="rr3">11:00 МСК</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-place col-cen-cen">
+                        <div class="form-field" id="f4">
+                            <input id="name" type="text" placeholder="...">
+                        </div>
+                    </div>
+                    <div class="w-place last-page">
+                        <h1>Спасибо за Вашу заявку!
+                        <br>
+                        Мы свяжемся с Вами в течение дня</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contacts">
+		<div class="container">
+			<div class="contacts-wrap">
+				<p>КОНТАКТЫ</p>
+				<img src="./img/telegram_icon.png" alt="tg">
+				<a href="https://t.me/rrinyxx">@rrinyxx</a>
+				<a href="tel:+79127640033">+7 912 764 0033</a>
+			</div>
+		</div>
+	</div>
+
+    <script src="./js/survey-script.js"></script>
+</body>
+</html>
