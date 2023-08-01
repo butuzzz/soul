@@ -314,13 +314,13 @@ a {
 	background: -moz-linear-gradient(45deg, rgb(251, 195, 212), rgb(254, 231, 135));
 	background: linear-gradient(45deg, rgb(251, 195, 212), rgb(254, 231, 135));
 	position: absolute;
-	top: 2267px;
+	top: 2177px;
 }
 
 .feedback {
 	width: 100%;
 	background: #fff;
-	top: 2990px;
+	top: 2900px;
 	position: absolute;
 }
 
@@ -402,7 +402,7 @@ a {
 	/* background: #ffe9ef; */
 	background: #FFABAB;
 	position: absolute;
-	top: 3590px;
+	top: 3540px;
 }
 
 .contacts .container{
@@ -600,7 +600,7 @@ a {
 .about-us {
 	position: absolute;
 	top: 1550px;
-	height: 717px;
+	height: 627px;
 	background: #FFE6E6;
 	margin: 0;
 	z-index: 100;
@@ -621,7 +621,7 @@ a {
 
 .information p {
 	font-weight: 500;
-	font-size: 32px;
+	font-size: 30px;
 	width: 635px;
 	margin: 0;
 	margin-left: 43px;
@@ -634,8 +634,9 @@ a {
 }
 
 .illustr img {
-	width: 680px;
-	height: 402px;
-	margin-top: 139px;
-	/* margin-left: -25px; */
+	width: 660px;
+	height: 391px;
+	margin-top: 119px;
+
+	margin-left: 12px;
 }
